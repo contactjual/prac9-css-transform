@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+
+.box1, .box2, .box3, .box4{
+    border: 5px solid goldenrod;
+    border-left:10px solid rgb(169, 184, 169);
+    border-right:10px solid rgb(37, 188, 37);
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+
+.boxa, .boxb, .boxc, .boxd {
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+.box1:hover, .boxa:hover {
+    transform:  rotate(60deg);
+    border-radius: 50px;
+
+}
+
+.box2:hover, .boxb:hover {
+    transform: scale(.5) rotate(360deg);
+    border-radius: 300px;
+    background-color: aqua;
+}
+
+.box3:hover, .boxc:hover{
+    transform: translateX(100px) scale(.8) rotate(360deg);
+    border-radius: 200px;
+    background-color: rgb(224, 102, 14);
+}
+
+.box4:hover, .boxd:hover{
+    transform: skew(20deg) translateY(100px) scale(.7) rotate(360deg);
+    border-radius: 100px;
+    background-color: rgb(246, 1, 250);
+}
+
